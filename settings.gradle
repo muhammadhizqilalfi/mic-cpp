@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        google()       // <--- Wajib ada di sini agar Gradle bisa menemukan plugin Android
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()       // <--- Wajib ada di sini juga untuk pustaka dependensi app
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Mic_cpp"
+include ':app'

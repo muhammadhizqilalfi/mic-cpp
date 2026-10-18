@@ -1,0 +1,11 @@
+.gradle/
+/build/
+/app/build/
+/app/.cxx/
+local.properties
+.vscode/
+miccpp/
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
